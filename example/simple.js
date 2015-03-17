@@ -9,8 +9,8 @@ var data = ObservStruct({
   items: ObservArray([1, 2, 3])
 });
 
-// show the data
+// show the observable
 console.log('observable: ', data);
 
-// show the unwrapped observable
+// show the unwrapped data
 console.log('unwrapped:  ', unwrap(data));
