@@ -9,6 +9,8 @@
 
 **/
 module.exports = function unwrap(input) {
+  var out;
+
   // functions
   if (typeof input == 'function') {
     return unwrap(input());
@@ -22,6 +24,16 @@ module.exports = function unwrap(input) {
   // arrays
   if (Array.isArray(input)) {
     return input.map(unwrap);
+  }
+
+  // if we have an object, the unwrap each of the keyed values
+  if (typeof input == 'object') {
+    out = {};
+    Object.keys(input).forEach(function(key) {
+      out[key] = unwrap(input[key]);
+    });
+
+    return out;
   }
 
   return input;
