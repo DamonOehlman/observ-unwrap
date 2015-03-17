@@ -3,7 +3,7 @@
 
   Unwrap a simple or nested observable into its plain old values.
 
-  # Example Usage
+  ## Example Usage
 
   <<< example/simple.js
 

@@ -2,7 +2,12 @@
 
 Unwrap a simple or nested observable into its plain old values.
 
-# Example Usage
+
+[![NPM](https://nodei.co/npm/observ-unwrap.png)](https://nodei.co/npm/observ-unwrap/)
+
+
+
+## Example Usage
 
 ```js
 var unwrap = require('observ-unwrap');
@@ -23,11 +28,6 @@ console.log('observable: ', data);
 console.log('unwrapped:  ', unwrap(data));
 
 ```
-
-[![NPM](https://nodei.co/npm/observ-unwrap.png)](https://nodei.co/npm/observ-unwrap/)
-
-
-
 
 ## License(s)
 
