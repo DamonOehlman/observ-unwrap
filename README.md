@@ -5,7 +5,7 @@ Unwrap a simple or nested observable into its plain old values.
 
 [![NPM](https://nodei.co/npm/observ-unwrap.png)](https://nodei.co/npm/observ-unwrap/)
 
-
+[![Build Status](https://img.shields.io/travis/DamonOehlman/observ-unwrap.svg?branch=master)](https://travis-ci.org/DamonOehlman/observ-unwrap) 
 
 ## Example Usage
 
